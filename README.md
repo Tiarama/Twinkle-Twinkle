@@ -78,6 +78,8 @@ for (let i = 0; i < 100; i++) {
 
 #### This is where stuff gets a little tricky but it's only 1 paragraph so I'll go through it step by step:
 
+<br>
+
 ```javascript 
 for (let i = 0; i < 100; i++) { 
 ```
