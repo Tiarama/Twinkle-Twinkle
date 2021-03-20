@@ -15,6 +15,7 @@ I couldn't find any tutorials online so I thought I'd show you how we did it and
 **It's a whole lot easier than you might think :)**
 
 ## >>> [Here](https://codepen.io/2sexi4skool/pen/mdOZaqw) is a simplified version I drew up in CodePen
+(Take a look at this, I will talk through the code below!)
 <hr>
 
 ## HTML
