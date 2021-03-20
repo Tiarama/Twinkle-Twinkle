@@ -7,7 +7,7 @@
 <hr>
 
 Hey all! the team over at:  
-![](astrologia-logo.png)  
+[![Foo](astrologia-logo.png)](https://fac21.github.io/week-2-astrologia-de-cada-dia/)  
 got some good feedback (thanks!) about the twinkling stars in the background of the page.
 
 I could't find any tutorials online so I thought I'd show you how we did it and you can play around with it and use it in your own pages.
