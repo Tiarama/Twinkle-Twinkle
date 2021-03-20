@@ -23,7 +23,7 @@ I couldn't find any tutorials online so I thought I'd show you how we did it and
 <div id="star-container"><div>
 ```
 - The HTML just needs one div. See? Easy! 
-- This wil be the container for the stars that will be created by JS
+- This will be the container for the stars that will be created by JS
 <br><br>
 <hr>
 
