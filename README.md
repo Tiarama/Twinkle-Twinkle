@@ -129,6 +129,7 @@ Now you can twinkle to your hearts content
 - Size / shape / colour of stars
 - What the Keyframes animation does at different points
 - Where the stars will be created on the page
+- Use z-indexing to make sure stars are displayed behind / infront of other elements on page as desired
 
 ### Stretch goal:
 
