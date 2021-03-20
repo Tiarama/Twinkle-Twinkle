@@ -1,7 +1,8 @@
 # Twinkle-Twinkle
-<img src="https://media.giphy.com/media/3ohs4oWkzyVeVgTwKQ/giphy.gif" height="200">
 
 ## Animate stars in the background with CSS
+
+<img src="https://media.giphy.com/media/3ohs4oWkzyVeVgTwKQ/giphy.gif" height="200">
 
 Hey all! the team over at:  
 ![](astrologia-logo.png)  
