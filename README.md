@@ -15,7 +15,6 @@ I couldn't find any tutorials online so I thought I'd show you how we did it and
 **It's a whole lot easier than you might think :)**
 
 ## >>> [Here](https://codepen.io/2sexi4skool/pen/mdOZaqw) is a simplified version I drew up in CodePen
-
 <hr>
 
 ## HTML
@@ -25,7 +24,7 @@ I couldn't find any tutorials online so I thought I'd show you how we did it and
 ```
 - The HTML just needs one div. See? Easy! 
 - This wil be the container for the stars that will be created by JS
-
+<br><br>
 <hr>
 
 ## CSS
@@ -37,7 +36,7 @@ I couldn't find any tutorials online so I thought I'd show you how we did it and
 }
 ```
 - Container gets a black background and takes up the whole screen
-  
+<br><br>
 ```css
 .star {
     position: absolute;
@@ -49,7 +48,7 @@ I couldn't find any tutorials online so I thought I'd show you how we did it and
 
 - This is a class that will apply to each star (the element doesn't exist yet!)
 - The absolute positioning means we can change where they will be displayed on the page using CSS properties like `top:` and `left:`
-
+<br><br>
 ```css
   @keyframes twinkle {
     0%   { opacity: 1; }
@@ -59,7 +58,7 @@ I couldn't find any tutorials online so I thought I'd show you how we did it and
 ```
 - This is a very simple keyframe that will change the opacity of the element it is applied to.
 - If you've not used keyframes before  [here](https://css-tricks.com/almanac/properties/a/animation/) is a css-tricks page explaining the use and the syntax! 
-
+<br><br>
 <hr>
 
 ## JS
@@ -83,39 +82,39 @@ for (let i = 0; i < 100; i++) {
 for (let i = 0; i < 100; i++) { 
 ```
 - Does something x100 you know the deal
-
+<br><br>
 
 ```javascript 
 const element = document.createElement('div') 
 ```
 - Creates an HTML `<div>` element
-
+<br><br>
 
 ```javascript 
 element.style.top=`${Math.random()*100}%` 
 ```
 - This is where the absolute positioning comes into play: it sets the CSS style of the created element to be a random % away from the top (so down)
-
+<br><br>
 ```javascript 
 element.style.left=`${Math.random()*100}%` 
 ```
 - Same as above, but away from the left (so right)
-
+<br><br>
 ```javascript 
 element.style.animation = `twinkle ${1+Math.random()*10}s ease-out infinite` 
 ```
 - Adds the CSS animation property to the element (see keyframes link above) including a random duration of 0-10 seconds +1 (this is so that the animation time will never be <1 in which case the star would become a pretty angry strobe light) 
-
+<br><br>
 ```javascript 
 starContainer.appendChild(element) 
 ```
 - Makes the element a child (puts it inside of) our HTML star-container div
-
+<br><br>
 ```javascript 
 element.setAttribute('class', 'star') 
 ```
 - Sets the class of our element to "star", which is something we've already defined in our CSS :)
-
+<br><br>
 ## All done!
 
 <img src="https://media.giphy.com/media/Yr00rD28UDqKI/giphy.gif" height="200">
