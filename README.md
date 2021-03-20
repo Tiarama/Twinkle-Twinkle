@@ -1,18 +1,20 @@
 # Twinkle-Twinkle
 
-## Animate stars in the background with CSS
+### How to animate stars in the background with CSS
 
 <img src="https://media.giphy.com/media/3ohs4oWkzyVeVgTwKQ/giphy.gif" height="200">
+
+<hr>
 
 Hey all! the team over at:  
 ![](astrologia-logo.png)  
 got some good feedback (thanks!) about the twinkling stars in the background of the page.
 
-I could't find any tutorials online so I thought I'd **show you how we did it** and you can **play around with it** and **use it in your own pages**.
+I could't find any tutorials online so I thought I'd show you how we did it and you can play around with it and use it in your own pages.
 
-It's a whole lot easier than you might think :)
+**It's a whole lot easier than you might think :)**
 
-### >> [Here](https://codepen.io/2sexi4skool/pen/mdOZaqw)'s a simplified version I drew up in codepen
+## >>> [Here](https://codepen.io/2sexi4skool/pen/mdOZaqw) is a simplified version I drew up in CodePen
 
 <hr>
 
@@ -92,8 +94,7 @@ const element = document.createElement('div')
 ```javascript 
 element.style.top=`${Math.random()*100}%` 
 ```
-- This is where the absolute positioning comes into play:
-- Sets the CSS style of the created element to be a random % away from the top (so down)
+- This is where the absolute positioning comes into play: it sets the CSS style of the created element to be a random % away from the top (so down)
 
 ```javascript 
 element.style.left=`${Math.random()*100}%` 
