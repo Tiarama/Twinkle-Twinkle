@@ -126,7 +126,7 @@ Now you can twinkle to your hearts content
 ### Stuff to play around with
 
 - Background colour / img / opacity of star-container div
-- Size / shape / colour of stars
+- Size / shape / colour of stars (% sizes help with responsivity ;))
 - What the Keyframes animation does at different points
 - Where the stars will be created on the page
 - Use z-indexing to make sure stars are displayed behind / infront of other elements on page as desired
