@@ -56,7 +56,7 @@ I couldn't find any tutorials online so I thought I'd show you how we did it and
     100% { opacity: 1; }
   }
 ```
-- This is a very simple keyframe that will change the opacity of the element it is applied to.
+- This is a very simple animation that will change the opacity of the element it is applied to over time.
 - If you've not used keyframes before  [here](https://css-tricks.com/almanac/properties/a/animation/) is a CSS-TRICKS page explaining the use and the syntax! 
 <br><br>
 <hr>
